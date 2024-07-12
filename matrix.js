@@ -5,8 +5,8 @@ let cw = window.innerWidth;
 let ch = window.innerHeight;
 
 
-canvas.width = 100vw;
-canvas.height = 100vh;
+canvas.width = cw;
+canvas.height = ch;
 
 
 window.addEventListener('resize', function(event) {
